@@ -25,8 +25,8 @@ import { AppState, FileData, PaperConfig, Difficulty, QuestionPaper, QuestionTyp
 import { generateQuestionPaper } from './services/geminiService';
 
 const INITIAL_CONFIG: PaperConfig = {
-  grade: '10th Grade',
-  subject: 'General Science',
+  grade: '',
+  subject: '',
   difficulty: Difficulty.MEDIUM,
   numMcq: 5,
   numTf: 5,
