@@ -103,7 +103,7 @@ export const generateQuestionPaper = async (
   config: PaperConfig,
 ): Promise<QuestionPaper> => {
   const response = await fetch(
-    "http://localhost:8787/generate-paper",
+    "https://paperai-worker.rishabhsingh2305.workers.dev/generate-paper",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
